@@ -1,0 +1,1 @@
+package com.pradeep.pdfextractor.excel; public final class ExcelColumns{private ExcelColumns(){} public static final int INVOICE_NO=0,DATE=1,VEHICLE=2,TRANSPORTER=3,CUSTOMER=4,PART_NO=5,QTY=6,TOTAL_WEIGHT=7,WEIGHT_PER_PART=8,PARTS_PER_BIN=9,TOTAL_BINS=10,BIN_WEIGHT=11,TOTAL_BIN_WEIGHT=12,NET_WEIGHT=13;}

@@ -1,0 +1,127 @@
+.root {
+    -fx-background-color: linear-gradient(
+        to bottom right,
+        #f5f7fa,
+        #e4ecf7
+    );
+
+    -fx-font-family: "Segoe UI";
+}
+
+
+.label {
+    -fx-font-size: 14px;
+    -fx-text-fill: #263238;
+    -fx-font-weight: bold;
+}
+
+
+.text-field {
+
+    -fx-background-color: white;
+
+    -fx-border-color: #b0bec5;
+
+    -fx-border-radius: 8;
+
+    -fx-background-radius: 8;
+
+    -fx-padding: 8;
+
+    -fx-font-size: 13px;
+
+}
+
+
+.text-field:focused {
+
+    -fx-border-color: #1976d2;
+
+    -fx-effect: dropshadow(
+        gaussian,
+        rgba(25,118,210,0.25),
+        8,
+        0,
+        0,
+        0
+    );
+
+}
+
+
+
+.button {
+
+    -fx-background-color: #1976d2;
+
+    -fx-text-fill: white;
+
+    -fx-font-weight: bold;
+
+    -fx-background-radius: 8;
+
+    -fx-padding: 8 18;
+
+    -fx-cursor: hand;
+
+}
+
+
+
+.button:hover {
+
+    -fx-background-color: #1565c0;
+
+}
+
+
+
+.button:pressed {
+
+    -fx-background-color: #0d47a1;
+
+}
+
+
+
+.progress-bar {
+
+    -fx-pref-height: 18;
+
+}
+
+
+
+.progress-bar .track {
+
+    -fx-background-radius: 10;
+
+}
+
+
+
+.progress-bar .bar {
+
+    -fx-background-color: #1976d2;
+
+    -fx-background-radius: 10;
+
+}
+
+
+
+.label.status {
+
+    -fx-font-size: 13px;
+
+    -fx-text-fill: #455a64;
+
+}
+
+
+
+.alert {
+
+    -fx-font-family: "Segoe UI";
+
+}
